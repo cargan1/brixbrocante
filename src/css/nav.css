@@ -80,6 +80,7 @@ nav.menu ul{
     nav.menu ul {
         display: flex;
         justify-content: center;
+        width:100%;
     }
 
     .contact-info {
