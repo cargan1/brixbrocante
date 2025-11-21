@@ -47,7 +47,7 @@ section.hero {
     height:80vh;
 aspect-ratio: 3 / 4;
     overflow: hidden;
-    background: url(/src/assets/lampe-brix-brocante);
+    background: url("/src/assets/brix-front-butik.jpg");
     background-size: cover;
     border-top-right-radius: 20rem;
     border-top-left-radius: 20rem;
@@ -162,7 +162,7 @@ section.privat .content-section-paragraph {
 
 section.privat .content-section-image {
     grid-column: col-start 7 / span 6;
-    background: url("/src/assets/fixed-image-7.jpg");
+    background: url("/src/assets/butik-1.jpg");
     padding-top:67%;
     background-size: cover;
     will-change: transform;
@@ -184,7 +184,7 @@ section.privat .content-section-image {
 
 
 section.erhverv {
-    background-color: #FFF9F4;
+    background-color: #faf3ed;
     text-align: right;
 
 }
@@ -204,7 +204,7 @@ section.erhverv .content-section-paragraph {
 
 section.erhverv .content-section-image {
     grid-column: col-start / span 6;
-    background: url("/src/assets/IMG_3785_redigeret.jpg");
+    background: url("/src/assets/butik-2.jpg");
     padding-top:67%;
     background-size: cover;
     will-change: transform;
@@ -252,7 +252,7 @@ section.merchandising .content-section-paragraph {
 
 section.merchandising .content-section-image {
     grid-column: col-start 7 / span 6;
-    background: url("/src/assets/samlet.png");
+    background: url("/src/assets/lampe-skaerme.png");
     padding-top:67%;
     background-size: cover;
     will-change: transform;
@@ -363,8 +363,8 @@ flex-direction: column;
     position: absolute;
     top: 20%;
     right:4rem;
-    aspect-ratio: 3 / 2;
-    max-width: 20rem;
+    aspect-ratio: 3 / 4;
+    max-width: 13rem;
 }
 .image2 {
     position: absolute;
@@ -377,8 +377,8 @@ flex-direction: column;
     position: absolute;
     bottom: 10%;
     left:60%;
-    aspect-ratio: 3 / 2;
-    max-width: 20rem;
+    aspect-ratio: 3 / 4;
+    max-width: 13rem;
 }
 
 @media only screen and (max-width:992px) { 
@@ -491,6 +491,10 @@ section.about {
     height:8rem;
     display: flex;
     align-items: center;
+}
+
+.logo {
+    width:4rem;
 }
 
 @media only screen and (max-width:992px) {
