@@ -1,0 +1,78 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img {
+	height: auto;
+	display: block;
+}
+
+a {
+	text-decoration: none;
+	cursor:pointer;
+}
+
+button {
+	background: none;
+	cursor: pointer;
+	user-select: none;
+	font-weight: inherit;
+}
+
+button,
+a {
+	color: inherit;
+}
+
+select,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input,
+button,
+textarea,
+hr {
+	border: none;
+}
+
+textarea:focus {
+	outline: none;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+input[type="submit"] {
+	cursor: pointer;
+}
+
+svg {
+	color: inherit;
+	fill: inherit;
+}
+
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+@media screen and (max-width: 640px) {
+	button:focus,
+	a:focus,
+	select:focus,
+	option:focus {
+		border: none;
+		outline: 2px solid #eaeff7;
+	}
+}
